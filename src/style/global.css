@@ -1,0 +1,47 @@
+/* Header style */
+.header{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+.btn{
+    height: 40px;
+    top: 10px;
+    position: relative;
+    color: white;
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .btn:active{
+transform: scale(0.95);
+color: white;
+}
+.btn:hover{
+    color: white;
+    }
+.img{
+    margin-left: 10px;
+}
+/* Card style */
+.card{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h2, span, p{
+    color: white;
+}
+/* App style */
+.containerApp{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+btn{width: 100px;
+background-color: brown;
+}
+@media (max-width: 770px) {
+    .row {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
